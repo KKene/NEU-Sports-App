@@ -12,4 +12,5 @@ public class Game {
         this.result = result;
         this.score = score;
     }
+    // This is a test
 }
