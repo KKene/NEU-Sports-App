@@ -26,6 +26,7 @@
     <string name="menu_swimming">Swimming &amp; Diving</string>
     <string name="menu_volleyball">Volleyball</string>
     <string name="menu_soccer">Soccer</string>
+    <string name="menu_rowing">Rowing</string>
 
     <string name="item_Sports">Sport</string>
 </resources>
