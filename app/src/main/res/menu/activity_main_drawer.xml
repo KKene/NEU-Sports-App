@@ -21,101 +21,115 @@
                     <item
                         android:id="@+id/item_mens_baseball"
                         android:title="@string/menu_baseball"
-                        app:showAsAction = "never" />
+                        app:showAsAction="never" />
 
                     <item
                         android:id="@+id/item_mens_basketball"
+                        android:icon="@drawable/basketball"
                         android:title="@string/menu_basketball"
-                        app:showAsAction = "never" />
+                        app:showAsAction="never" />
 
                     <item
                         android:id="@+id/item_mens_crossCountry"
+                        android:icon="@drawable/running"
                         android:title="@string/menu_crossCountry"
-                        app:showAsAction = "never" />
+                        app:showAsAction="never" />
 
                     <item
                         android:id="@+id/item_mens_iceHockey"
+                        android:icon="@drawable/icehockey"
                         android:title="@string/menu_iceHockey"
-                        app:showAsAction = "never"  />
+                        app:showAsAction="never" />
 
                     <item
                         android:id="@+id/item_mens_rowing"
+                        android:icon="@drawable/rowing"
                         android:title="@string/menu_rowing"
-                        app:showAsAction = "never" />
+                        app:showAsAction="never" />
 
                     <item
                         android:id="@+id/item_mens_soccer"
+                        android:icon="@drawable/soccer"
                         android:title="@string/menu_soccer"
-                        app:showAsAction = "never" />
+                        app:showAsAction="never" />
 
                     <item
                         android:id="@+id/item_mens_track"
+                        android:icon="@drawable/running"
                         android:title="@string/menu_track"
-                        app:showAsAction = "never" />
-                </group>
-            </menu>
+                        app:showAsAction="never" />
+            </group>
+        </menu>
 
-        </item>
+    </item>
 
-        <item
-            android:id="@+id/nav_share1"
-            android:title="@string/menu_womens_sports"
-            app:showAsAction="always" >
+    <item
+        android:id="@+id/nav_share1"
+        android:title="@string/menu_womens_sports"
+        app:showAsAction="always" >
 
-            <menu >
-                <group android:checkableBehavior="single">
-                    <item
-                        android:id="@+id/item_womens_basketball"
-                        android:title="@string/menu_basketball"
+        <menu >
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/item_womens_basketball"
+                    android:icon="@drawable/basketball"
+                    android:title="@string/menu_basketball"
+                    app:showAsAction="never" />
 
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_crossCountry"
+                    android:icon="@drawable/running"
+                    android:title="@string/menu_crossCountry"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_crossCountry"
-                        android:title="@string/menu_crossCountry"
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_fieldHockey"
+                    android:icon="@drawable/fieldhockey"
+                    android:title="@string/menu_fieldHockey"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_fieldHockey"
-                        android:title="@string/menu_fieldHockey"
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_iceHockey"
+                    android:icon="@drawable/icehockey"
+                    android:title="@string/menu_iceHockey"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_iceHockey"
-                        android:title="@string/menu_iceHockey"
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_rowing"
+                    android:icon="@drawable/rowing"
+                    android:title="@string/menu_rowing"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_rowing"
-                        android:title="@string/menu_rowing"
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_soccer"
+                    android:icon="@drawable/soccer"
+                    android:title="@string/menu_soccer"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_soccer"
-                        android:title="@string/menu_soccer"
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_swimming"
+                    android:icon="@drawable/swimming"
+                    android:title="@string/menu_swimming"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_swimming"
-                        android:title="@string/menu_swimming"
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_track"
+                    android:icon="@drawable/running"
+                    android:title="@string/menu_track"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_track"
-                        android:title="@string/menu_track"
-                        app:showAsAction = "never" />
+                <item
+                    android:id="@+id/item_womens_volleyball"
+                    android:icon="@drawable/volleyball"
+                    android:title="@string/menu_volleyball"
+                    app:showAsAction="never" />
 
-                    <item
-                        android:id="@+id/item_womens_volleyball"
-                        android:title="@string/menu_volleyball"
-                        app:showAsAction = "never"  />
+            </group>
+        </menu>
 
-                </group>
-            </menu>
+    </item>
 
-        </item>
-
-    </group>
+</group>
 
 
 </menu>
